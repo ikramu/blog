@@ -230,6 +230,8 @@ brew install
 brew install imagemagick
 brew install phantomjs
 
+pip install html2text
+
 
 ## Apps
 
