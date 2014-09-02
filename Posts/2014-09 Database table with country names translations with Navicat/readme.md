@@ -1,6 +1,12 @@
 ---
-tags: quick-tip
+tags: quick-tip, tools, navicat
 ---
+
+**Goal:** Easy to visually check for consistency, missing values, ...
+
+![](final.png)
+
+***
 
 Download CSV from <https://github.com/umpirsky/country-list>
 ```
@@ -27,10 +33,6 @@ AL,Albánie
 ![](8.png)
 ![](9.png)
 ![](10.png)
-
-Easy to visually check for consistency, missing values, ...
-
-![](final.png)
 
 Then write script to export to JSON in format you app need, eg.:
 ```json
