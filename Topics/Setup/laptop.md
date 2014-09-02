@@ -187,6 +187,15 @@ defaults write com.apple.dashboard mcx-disabled -boolean true
 * Wacom Utility
 * Sony Walkman NWZ-W273 Content Transfer [Manual download](http://esupport.sony.com/US/p/swu-download.pl?mdl=NWZW273&upd_id=9129&os_group_id=3)
 
+## Resources
+
+### Fonts
+
+```
+brew tap caskroom/fonts
+brew cask install font-source-code-pro
+```
+
 ## 6. General tools
 
 #### Oh-my-zsh
@@ -336,6 +345,9 @@ Pref: Integration: Alfred, PopClip, TextMate
 brew cask install box-sync
 ```
 
+```
+
+
 #### Flux
 ```
 brew cask install flux
@@ -349,7 +361,7 @@ brew cask install firefox
 
 #### Cakebrew
 ```
-http://www.cakebrew.com
+brew cask install cakebrew
 ```
 
 #### Caffeine
@@ -359,7 +371,7 @@ AppStore
 
 #### Air Video HD
 ```
-brew cask install air-video-server
+brew cask install air-video-server-hd
 ```
 
 ```
@@ -378,7 +390,13 @@ AppStore
 ```
 
 #### CodeRunner
+```
+AppStore
+```
 
+```
+Pref: Javascript to Node
+```
 
 #### DayOne
 ```
@@ -458,6 +476,12 @@ TODO: Sync settings
 `AppStore`
 
 
+#### Github for Mac
+Easy Git UI client for Mac, enables Clone in Dekstop button on Github.com
+```
+brew cask install GitHub
+```
+
 #### VirtualBox
 `brew cask install virtualBox`  
 
@@ -472,12 +496,26 @@ https://github.com/xdissent/ievms
 download manually
 ```
 
+#### iStatMenus
+Overview of your computer stats in menubar.
 
 #### Calibre
 ```
 brew cask install calibre
 ```
 
+#### Renamer
+Convinient batch renamer
+```
+brew cask install renamer
+```
+
+#### Air Display
+Extend computer screen to iOS device via Wifi.
+
+```
+airdisplay
+```
 
 #### Charles
 ```
@@ -526,6 +564,13 @@ download manually
 #### Submerge
 ```
 download manually
+```
+
+#### VLC
+Good for codecs, Air Video HD can use them.
+
+```
+brew cask install vlc
 ```
 
 
@@ -608,7 +653,7 @@ Pref: External Editing: Edit in Adobe Photoshop – change Color Space to AdobeR
 [Trey's Lightroom 5 Presets](http://store.stuckincustoms.com/lightroom-5-presets)
 ```
 rm -rf "$HOME/Library/Application Support/Adobe/Lightroom"
-ln -s "$HOME/Dropbox/Sync/Lightroom Settings" "$HOME/Library/Application Support/Adobe/Lightroom"
+ln -s "$HOME/Dropbox/Sync/apps/Lightroom Settings" "$HOME/Library/Application Support/Adobe/Lightroom"
 ```
 
 #### Plug-ins
@@ -620,6 +665,11 @@ ln -s "$HOME/Dropbox/Sync/Lightroom Settings" "$HOME/Library/Application Support
 * [Focus Mask](http://www.capturemonkey.com/focusmask)
 
 #### Adobe Premiere Pro CS6
+
+#### RecordIt
+```
+http://recordit.co
+```
 
 
 #### Customize Dock

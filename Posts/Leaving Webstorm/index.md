@@ -3,6 +3,14 @@
 I wanted to summarize which Webstorm features I'm not using, but after 1 hour I got so tired.
 Webstorm has so many options that my option is to leave it.
 
+
+# Things that really piss me off
+
+> Write programs that do one thing and do it well.
+
+* JetBrains IDE Support has option to allow Cross-origin request from white-listed URLs <http://blog.jetbrains.com/webstorm/2013/06/cors-control-in-jetbrains-chrome-extension/#comment-69018>
+
+
 ## Code style
 
 ![](assets/49936ed380126efb.png)  
