@@ -1,0 +1,11 @@
+extends ../templates/layout
+block body
+	h1 Hello
+	p There
+
+	each post in collections.posts
+		.post
+			h4
+				a(href=post.url)= post.title
+			p Modified #{post.stats.mtime}
+

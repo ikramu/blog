@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+head
+	meta(charset='utf-8')
+	title #{title} | #{pageTitle}
+	link(href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.css', rel='stylesheet')
+	link(href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/github.min.css', rel='stylesheet')
+	script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js')
+
+	body
+	p= description
+	.container
+		block body
+

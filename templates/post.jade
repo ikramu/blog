@@ -1,0 +1,17 @@
+extends layout
+
+block body
+	h1= title
+	time= date
+	div!= contents
+
+	p= next
+	p= previous
+
+	.comments#disqus_thread
+	script.
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + 'strajkme' + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();

@@ -1,0 +1,5 @@
+{
+  "restartable": "rs",
+  "ignore": [],
+  "ext": "js json md jade"
+}
