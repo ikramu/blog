@@ -16,20 +16,108 @@ Serial Number: C****3
 ```
 
 ## Dropbox selective sync
-``` text
- # Home folder dotfiles
-~/.gemrc            -> ~/Dropbox/Sync/.gemrc
-~/.gitconfig        -> ~/Dropbox/Sync/.gitconfig
-~/.gitignore_global -> ~/Dropbox/Sync/.gitignore_global
-~/.js               -> ~/Dropbox/Sync/.js
-~/.oh-my-zsh/custom -> ~/Dropbox/Sync/zsh-custom
-~/.ssh              -> ~/Dropbox/Sync/.ssh
-~/.zshrc            -> ~/Dropbox/Sync/.zshrc
- # Library folders
+```
 ~/Desktop           -> ~/Dropbox/Desktop
 ~/Documents         -> ~/Dropbox/Documents
 ~/Pictures          -> ~/Dropbox/Pictures
 ```
+
+Sync settings
+-------------
+https://github.com/lra/mackup
+
+```
+Xcode
+* Library/Developer/Xcode/UserData/KeyBindings
+Charles
+* Library/Preferences/com.xk72.charles.config
+* Library/Application Support/Charles
+
+Spotify
+* Library/Preferences/com.spotify.client.plist
+
+ColorSync
+* Library/ColorSync/Profiles
+
+Flux
+Library/Preferences/org.herf.Flux.plist
+
+FontExplorer
+Library/Application Support/Linotype/FontExplorer X
+
+Moom
+Library/Preferences/com.manytricks.Moom.plist
+Library/Application Support/Many Tricks
+
+
+Caffeine
+Library/Preferences/com.lightheadsw.Caffeine.plist
+
+Lightroom
+Library/Application Support/Adobe/Lightroom
+Library/Preferences/com.adobe.Lightroom5.plist
+
+iChat
+Library/Preferences/com.apple.iChat.plist
+Library/Preferences/com.apple.iChat.AIM.plist
+Library/Preferences/com.apple.iChat.Yahoo.plist
+Library/Preferences/com.apple.iChat.StatusMessages.plist
+Library/Preferences/com.apple.iChat.Jabber.plist
+Library/Preferences/com.apple.iChat.LSSharedFileList.plist
+Library/Application Scripts/com.apple.iChat
+
+
+Atom
+.atom
+Library/Preferences/com.github.atom.plist
+
+
+PopClip
+Library/Application Support/PopClip
+Library/Preferences/com.pilotmoon.popclip.plist
+
+
+Dash
+Library/Application Support/Dash/library.dash
+Library/Preferences/com.kapeli.dash.plist
+
+
+Skype
+Library/Application Support/Skype
+
+
+SourceTree
+Library/Application Support/SourceTree/hostingservices.plist
+Library/Application Support/SourceTree/sourcetree.license
+Library/Application Support/SourceTree/browser.plist
+Library/Application Support/SourceTree/hgrc_sourcetree
+
+Transmit
+Library/Preferences/com.panic.Transmit.plist
+Library/Application Support/Transmit/Metadata..
+
+Bartender
+Library/Preferences/com.surteesstudios.Bartender.plist
+
+```
+.ssh
+.oh-my-zsh
+.hgignore_global
+.gitconfig
+.gitignore_global
+.emacs.d
+.bash_profile
+.bashrc
+.profile
+.gemrc
+.gem
+.zlogin
+.zshrc
+.netrc
+.Library/Preferences/net.elasticthreads.nv.plist
+Library/Application Support/Adobe/CameraRaw
+```
+
 
 ## Backup
 
