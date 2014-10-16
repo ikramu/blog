@@ -1,4 +1,8 @@
-# Strajk's setup
+---
+title: Geek setup
+template: post
+tags: geek
+---
 
 ## Current HW Setup
 ``` text
@@ -485,7 +489,7 @@ brew cask install GitHub
 ```
 
 #### VirtualBox
-`brew cask install virtualBox`  
+`brew cask install virtualBox`
 
 https://github.com/xdissent/ievms
 
@@ -620,7 +624,7 @@ Pref: General: Units & Increments: Milimeters
 #### Adobe Photoshop CS6
 ##### Sync Presets & Workspaces from Dropbox
 ```
-rm -rf "$HOME/Library/Preferences/Adobe Photoshop CS6 Settings/WorkSpaces"
+rm -rf "$HOME/Library/Preferences/Adobe Photoshop CC 2014 Settings/WorkSpaces"
 ln -s "$HOME/Dropbox/Sync/Photoshop/WorkSpaces" !:2
 rm -rf "$HOME/Library/Application Support/Adobe/Adobe Photoshop CS6/Presets"
 ln -s "$HOME/Dropbox/Sync/Photoshop/Presets" !:2
@@ -724,3 +728,15 @@ killall Dock
 
 ## Open With Defaults
 TODO
+
+
+
+## Tried but not liked
+
+Parallels Desktop
+---
+Overkill for just testing webapps.
+Too much integration into system.
+
+
+

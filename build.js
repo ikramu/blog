@@ -6,6 +6,7 @@ var markdown   = require('metalsmith-markdown');
 var metallic = require('metalsmith-metallic');
 var tags = require('metalsmith-tags');
 var templates  = require('metalsmith-templates');
+var watch = require('metalsmith-watch');
 
 var path = require('path');
 
@@ -36,6 +37,9 @@ Metalsmith(__dirname)
 	}))
 	.use(templates('jade'))
 	.destination('./build')
+	.use(watch({
+		livereload: true
+	}))
 	.build(function(err){
 		if (err) throw err;
 		console.log("Builded");

@@ -1,11 +1,9 @@
 extends ../templates/layout
 block body
-	h1 Hello
-	p There
+	h1 Strajk's blog
 
-	each post in collections.posts
-		.post
-			h4
-				a(href=post.url)= post.title
-			p Modified #{post.stats.mtime}
-
+	//each post in collections.posts
+	//	.post
+	//		h4
+	//			a(href=post.url)= post.title
+	//		p Modified #{post.stats.mtime}

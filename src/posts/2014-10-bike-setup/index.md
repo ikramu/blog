@@ -1,3 +1,9 @@
+---
+title: Bike setup
+template: post
+draft: false
+---
+
 #### FRAME
 Specialized M4SL Aluminum, 29er frame w/ XC geometry
 
